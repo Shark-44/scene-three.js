@@ -8,4 +8,5 @@ J'ai envie de pouvoir revenir, revoir des détails. Les commentaires seront ains
     1- app-01: La base de la scene, avec la camera
     2- app-02: ajout d'une image a la texture .
     3- app-03: ajout d'un tolltip .
+    4- app-04: responsive de la la scene
     
