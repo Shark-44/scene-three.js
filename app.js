@@ -14,7 +14,7 @@ document.body.appendChild( renderer.domElement )
 
 const geometry = new THREE.SphereGeometry( 15, 32, 16 ); 
 const loader = new THREE.TextureLoader() // chargement de l'outil
-const texture = loader.load('./test.jpeg') // utilisation de l'outil pour rechercher l'image
+const texture = loader.load('./test-2.jpg') // utilisation de l'outil pour rechercher l'image
 const material = new THREE.MeshBasicMaterial( { 
     map: texture, // mise en application de l'outil
     side: THREE.DoubleSide 
