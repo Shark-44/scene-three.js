@@ -15,6 +15,8 @@ document.body.appendChild( renderer.domElement )
 const geometry = new THREE.SphereGeometry( 15, 32, 16 ); 
 const loader = new THREE.TextureLoader() // chargement de l'outil
 const texture = loader.load('./test-2.jpg') // utilisation de l'outil pour rechercher l'image
+texture.wrapS = THREE.RepeatWrapping; // methode pour inverser l'image
+texture.repeat.x = -1 // methode pour inverser l'image
 const material = new THREE.MeshBasicMaterial( { 
     map: texture, // mise en application de l'outil
     side: THREE.DoubleSide 
@@ -25,7 +27,7 @@ scene.add( sphere );
 
 const controls = new OrbitControls( camera, renderer.domElement );
 
-camera.position.set( 1, 0, 0 ); 
+camera.position.set( -1, 0, 0 ); // passer -1 pour regarder le bon angle
 controls.update();
 
 
