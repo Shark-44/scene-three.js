@@ -5,7 +5,7 @@ https://www.youtube.com/watch?v=LbLOXsDVyaM&t=905s
 
 
 Je distingue par app.js la partie active du code et app-01.js etc les evolutions.
-J'ai envie de pouvoir revenir, revoir des détails. Les commentaires seront ainsi des notes a chaques étapes.
+J'ai envie de pouvoir revenir, revoir des détails. Les commentaires seront ainsi des notes a chaque étapes.
 
     1- app-01: La base de la scene, avec la camera
     2- app-02: ajout d'une image a la texture .
@@ -16,3 +16,4 @@ J'ai envie de pouvoir revenir, revoir des détails. Les commentaires seront ains
     7- app-07: affichage dans la console du nom de la sprite au click.
     8- app-08: meme chose que le onclick mais avec le survol
     9- app-09: au survol de l'info-bulle un message apparait suivant html et css de tooltip
+    10- app-10: ajout d'une animation gsap sur la sprite.
