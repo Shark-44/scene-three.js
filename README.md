@@ -14,3 +14,5 @@ J'ai envie de pouvoir revenir, revoir des détails. Les commentaires seront ains
     5- app-05: grace a raycaster on peut memoriser la position de la souris et par une fonction ajouter une tooltip.
     6- app-06: apres la methode ajouter une sprite( tooltip) on peut en 4 etapes definir une sprite en un point precis et lui donner un nom
     7- app-07: affichage dans la console du nom de la sprite au click.
+    8- app-08: meme chose que le onclick mais avec le survol
+    
