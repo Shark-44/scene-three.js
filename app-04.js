@@ -54,3 +54,5 @@ function onResize() {
 }
 
 window.addEventListener('resize', onResize);
+
+// avoir renderer.setPixelRatio(window.devicePixelRatio);
