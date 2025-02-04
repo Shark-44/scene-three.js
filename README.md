@@ -19,3 +19,4 @@ J'ai envie de pouvoir revenir, revoir des détails. Les commentaires seront ains
     10- app-10: ajout d'une animation gsap sur la sprite.
     11- app-11: avant de changer d'image de la scene on applique une opacity:0 avec gsap
     12- app-12: creation d'un class scene qui reprend la methode sphere et addtooltip en cours...
+    13- app-13: ajout des sprites tooltip
