@@ -21,3 +21,4 @@ J'ai envie de pouvoir revenir, revoir des détails. Les commentaires seront ains
     12- app-12: creation d'un class scene qui reprend la methode sphere et addtooltip en cours...
     13- app-13: ajout des sprites tooltip
     14- app-14: on joue une animation sur le click qui applique la methode destroy
+    15- app-15: on charge la nouvelle image mais un setTimeout permet l'execution de l'animation gsap
