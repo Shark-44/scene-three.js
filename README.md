@@ -20,3 +20,4 @@ J'ai envie de pouvoir revenir, revoir des détails. Les commentaires seront ains
     11- app-11: avant de changer d'image de la scene on applique une opacity:0 avec gsap
     12- app-12: creation d'un class scene qui reprend la methode sphere et addtooltip en cours...
     13- app-13: ajout des sprites tooltip
+    14- app-14: on joue une animation sur le click qui applique la methode destroy
