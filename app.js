@@ -42,7 +42,7 @@ class Scene {
    
 
     addTooltip (point) { 
-        const spriteMap = new THREE.TextureLoader().load( 'tooltip.png' );
+        const spriteMap = new THREE.TextureLoader().load( './public/tooltip.png' );
         const spriteMaterial = new THREE.SpriteMaterial({ 
             map: spriteMap,
             transparent: true, 
@@ -69,7 +69,7 @@ class Scene {
     destroy () {
         
         this.sphere.material.transparent = true;
-            
+        tooltip.classList.remove('is-active');   
         gsap.to(this.sphere.material, {
             duration: 1,
             opacity: 0,
@@ -107,17 +107,17 @@ renderer.setSize( window.innerWidth, window.innerHeight );
 container.appendChild( renderer.domElement )
 
 // instance de sphere
-let s = new Scene('./test-2.jpg')
-let s2 = new Scene('./test.jpg') 
+let s = new Scene('./public/test-2.jpg')
+let s2 = new Scene('./public/test.jpg') 
 
 s.addPoint({
     position:new THREE.Vector3( 45.51802272267461, -18.56677565020162, 8.924361641450966),
-    name: 'intersecion',
+    name: 'go Venise',
     scene: s2 
 })
 
 s2.addPoint({
-    position:new THREE.Vector3( 45.51802272267461, -18.56677565020162, 8.924361641450966),
+    position:new THREE.Vector3(45.51802272267461, -15.56677565020162, 1.924361641450966),
     name: 'retour',
     scene: s 
 })
