@@ -17,3 +17,4 @@ J'ai envie de pouvoir revenir, revoir des détails. Les commentaires seront ains
     8- app-08: meme chose que le onclick mais avec le survol
     9- app-09: au survol de l'info-bulle un message apparait suivant html et css de tooltip
     10- app-10: ajout d'une animation gsap sur la sprite.
+    11- app-11: avant de changer d'image de la scene on applique une opacity:0 avec gsap
